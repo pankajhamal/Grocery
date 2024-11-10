@@ -86,7 +86,7 @@ body{
     opacity: 0.7;
     font-size: 1rem;
 }
-@media (max-width:475px){
+@media (max-width:350px){
     .submission input{
         width: 70%;
     }
