@@ -86,11 +86,27 @@ body{
     opacity: 0.7;
     font-size: 1rem;
 }
-@media (max-width:350px){
+
+@media (max-width: 400px  ){
     .submission input{
-        width: 70%;
+        width: 60%;
     }
     .container{
-        margin-bottom: 200px;
+        margin-bottom: 80px;
+    }
+    .title{
+        color: blue;
+    }
+}
+
+@media (max-width: 480px  ){
+    .submission input{
+        width: 60%;
+    }
+    .container{
+        margin-bottom: 80px;
+    }
+    .title{
+        color: blue;
     }
 }
