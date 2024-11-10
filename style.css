@@ -94,19 +94,34 @@ body{
     .container{
         margin-bottom: 80px;
     }
-    .title{
-        color: blue;
+    .parent-list li{
+        width: 60%;
+    }
+    .icons{
+        width: 15%;
     }
 }
 
 @media (max-width: 480px  ){
     .submission input{
-        width: 60%;
+        width: 70%;
     }
     .container{
         margin-bottom: 80px;
     }
-    .title{
-        color: blue;
+    .icons{
+        width: 16%;
+    }
+    
+}
+@media (max-width: 330px  ){
+    .submission input{
+        width: 50%;
+    }
+    .container{
+        margin-bottom: 80px;
+    }
+    .icons{
+        width: 18%;
     }
 }
